@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="027fd7ce-1378-47a1-a021-e1570aa6507a" name="默认变更列表" comment="add json_server_mock">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/person-list-js/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/person-list-js/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/person-list-js/list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/person-list-js/search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+    <list default="true" id="027fd7ce-1378-47a1-a021-e1570aa6507a" name="默认变更列表" comment="add project list">
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__json_server_mock__/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/__json_server_mock__/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/person-list-js/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/person-list-js/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/person-list-js/list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/person-list-js/list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/person-list-js/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/person-list-js/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631583560262</updated>
       <workItem from="1631583562578" duration="5011000" />
-      <workItem from="1631685084464" duration="6063000" />
+      <workItem from="1631685084464" duration="11984000" />
     </task>
     <task id="LOCAL-00001" summary="init config">
       <created>1631598304986</created>
@@ -91,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631686516194</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add project list">
+      <created>1631691568360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631691568360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +128,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init config" />
     <MESSAGE value="add json_server_mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="add json_server_mock" />
+    <MESSAGE value="add project list" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project list" />
   </component>
 </project>
