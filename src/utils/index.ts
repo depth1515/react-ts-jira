@@ -5,7 +5,7 @@ import {useEffect, useState} from "react";
  * @param val
  * @returns {boolean|boolean}
  */
-export const isFalsy = (val:any) => val === 0 ? false : !val
+export const isFalsy = (val: unknown) => val === 0 ? false : !val
 
 // 在一个函数里，不应该改变传入的对象本身，而是拷贝一份返回正确的值
 export const cleanObject = (obj: object) => {
@@ -23,11 +23,14 @@ export const cleanObject = (obj: object) => {
 
 export const useMount = (callback : () => void) => {
     useEffect(() => {
-        callback()
-    }, [])
+        callback();
+    // eslint-disable-next-line
+    }, []);
 }
 
-export const useDebounce = (val: any, delay?: number) => {
+
+// 使用泛型规范类型
+export const useDebounce = (val: unknown, delay?: number): any => {
     const [debouncedValue, setDebouncedValue] = useState(val)
     useEffect(() => {
         // 每次在value变化以后，设置一个定时器

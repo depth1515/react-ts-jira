@@ -1,6 +1,6 @@
 import React from 'react';
 import 'App.css';
-import {PersonsListScreen} from "./screens/person-list-js";
+import {PersonsListScreen} from "./screens/person-list-ts";
 
 function App() {
   return (

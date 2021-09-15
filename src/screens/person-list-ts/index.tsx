@@ -24,11 +24,11 @@ export const PersonsListScreen = () => {
   useEffect(() => {
     // qs.stringify 转object => key=val&key=val
     fetch(`${apiUrl}/projects?${qs.stringify(cleanObject(debounceParam))}`).then(
-      async (res) => {
-        if (res.ok) {
-          setList(await res.json());
+        async (res) => {
+          if (res.ok) {
+            setList(await res.json());
+          }
         }
-      }
     );
   }, [debounceParam]);
 
