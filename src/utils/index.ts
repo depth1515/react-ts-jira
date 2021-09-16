@@ -28,9 +28,8 @@ export const useMount = (callback : () => void) => {
     }, []);
 }
 
-
-// 使用泛型规范类型
-export const useDebounce = (val: unknown, delay?: number): any => {
+// 使用泛型来规范类型
+export const useDebounce = <V>(val: V, delay?: number) => {
     const [debouncedValue, setDebouncedValue] = useState(val)
     useEffect(() => {
         // 每次在value变化以后，设置一个定时器
@@ -41,4 +40,20 @@ export const useDebounce = (val: unknown, delay?: number): any => {
         return () => clearTimeout(timer)
     }, [val, delay]);
     return debouncedValue
+}
+
+// 泛型使用
+export const useArray = <T>(initialArray: T[]) => {
+    const [value, setValue] = useState(initialArray)
+    return {
+        value,
+        setValue,
+        add: (item: T) => setValue([...value, item]),
+        clear: () => setValue([]),
+        removeIndex: (index: number) => {
+            const copy = [...value]
+            copy.splice(index, 1)
+            setValue(copy)
+        }
+    }
 }
