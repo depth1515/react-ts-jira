@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="027fd7ce-1378-47a1-a021-e1570aa6507a" name="默认变更列表" comment="add ts type define">
+    <list default="true" id="027fd7ce-1378-47a1-a021-e1570aa6507a" name="默认变更列表" comment="泛型使用">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/person-list-js/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/person-list-ts/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/person-list-js/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/person-list-ts/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/person-list-js/list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/person-list-ts/list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/person-list-js/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/person-list-ts/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1631583560262</updated>
       <workItem from="1631583562578" duration="5011000" />
-      <workItem from="1631685084464" duration="14215000" />
+      <workItem from="1631685084464" duration="14756000" />
+      <workItem from="1631776917670" duration="2197000" />
     </task>
     <task id="LOCAL-00001" summary="init config">
       <created>1631598304986</created>
@@ -100,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631697585060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="any -&gt; unknown">
+      <created>1631699788248</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631699788248</updated>
+    </task>
+    <task id="LOCAL-00007" summary="泛型使用">
+      <created>1631778692310</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631778692310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +145,8 @@
     <MESSAGE value="add json_server_mock" />
     <MESSAGE value="add project list" />
     <MESSAGE value="add ts type define" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ts type define" />
+    <MESSAGE value="any -&gt; unknown" />
+    <MESSAGE value="泛型使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="泛型使用" />
   </component>
 </project>
