@@ -1,27 +1,18 @@
 import React, { FormEvent } from "react";
 import * as qs from "qs";
 import { cleanObject } from "../../utils";
+import { useAuth } from "../../context/auth-context";
 
-interface LoginFormData {
+export interface LoginFormData {
   username: string;
   password: string;
 }
+
 // 自动化切换环境变量
 const apiUrl = process.env.REACT_APP_API_URL;
 
 export const LoginScreen = () => {
-  const login = (param: LoginFormData) => {
-    fetch(`${apiUrl}/login`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(param),
-    }).then(async (res) => {
-      if (res.ok) {
-      }
-    });
-  };
+  const { login, user } = useAuth();
 
   // T = HTMLFormElement
   // HTMLFormElement extends Element
@@ -36,6 +27,7 @@ export const LoginScreen = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      {user ? <div>登录成功，用户名：{user?.name}</div> : null}
       <div>
         <label htmlFor="username">用户名</label>
         <input type="text" id={"username"} />
